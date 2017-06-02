@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa"
+    tools:context="com.exerciseapp.mattiapalmas.alice.animals.AnimalsMain">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:columnCount="5"
+        android:rowCount="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/asparagusImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/banana" />
+
+            <TextView
+                android:id="@+id/asparagusText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/asparagus"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/beetImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/cherries" />
+
+            <TextView
+                android:id="@+id/beetText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/beet"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/broccoliImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/coconut" />
+
+            <TextView
+                android:id="@+id/broccoliText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/broccoli"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/carotImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/grapes" />
+
+            <TextView
+                android:id="@+id/carotText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/carot"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/maisImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/kiwi" />
+
+            <TextView
+                android:id="@+id/maisText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mais"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/zucchiniImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/lemon" />
+
+            <TextView
+                android:id="@+id/zucchiniText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/zucchini"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/eggplantImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/melon" />
+
+            <TextView
+                android:id="@+id/eggplantText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/eggplant"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/saladImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/melon2" />
+
+            <TextView
+                android:id="@+id/saladText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/salad"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/leekImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/orange" />
+
+            <TextView
+                android:id="@+id/leekText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/leek"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/mushroomImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/peach" />
+
+            <TextView
+                android:id="@+id/mushroomText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mushroom"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/onionImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/pear" />
+
+            <TextView
+                android:id="@+id/onionText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/onion"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pepperImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/pear2" />
+
+            <TextView
+                android:id="@+id/pepperText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pepper"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/peesImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/pineapple1" />
+
+            <TextView
+                android:id="@+id/peesText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pees"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/potatoesImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/pineapples" />
+
+            <TextView
+                android:id="@+id/potatoesText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/potatoes"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pumpkinImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:padding="5dp"
+                app:srcCompat="@drawable/banana2" />
+
+            <TextView
+                android:id="@+id/pumpkinText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pumpkin"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>

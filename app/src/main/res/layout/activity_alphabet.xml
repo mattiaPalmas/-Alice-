@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asas"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context="com.exerciseapp.mattiapalmas.alice.alphabet.AlphabetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/aButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorYellow"
+            android:onClick="startLetterActivity"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/bButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorRed"
+            android:onClick="startLetterActivity"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/cButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/white"
+            android:onClick="startLetterActivity"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/dButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="startLetterActivity"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/eButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:onClick="startLetterActivity"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/fButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/darker_gray"
+            android:onClick="startLetterActivity"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/gButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:onClick="startLetterActivity"
+            android:text="G" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:onClick="startLetterActivity"
+            android:text="H" />
+
+        <Button
+            android:id="@+id/iButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorBlue"
+            android:onClick="startLetterActivity"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/jButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:onClick="startLetterActivity"
+            android:text="J" />
+
+        <Button
+            android:id="@+id/kButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorBrown"
+            android:onClick="startLetterActivity"
+            android:text="K" />
+
+        <Button
+            android:id="@+id/lButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:onClick="startLetterActivity"
+            android:text="L" />
+
+        <Button
+            android:id="@+id/mButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:onClick="startLetterActivity"
+            android:text="M" />
+
+        <Button
+            android:id="@+id/nButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorYellow"
+            android:onClick="startLetterActivity"
+            android:text="N" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/oButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorPink"
+            android:onClick="startLetterActivity"
+            android:text="O" />
+
+        <Button
+            android:id="@+id/pButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:onClick="startLetterActivity"
+            android:text="P" />
+
+        <Button
+            android:id="@+id/qButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/white"
+            android:onClick="startLetterActivity"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/rButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorYellow"
+            android:onClick="startLetterActivity"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/sButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:onClick="startLetterActivity"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/tButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorRed"
+            android:onClick="startLetterActivity"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/uButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/white"
+            android:onClick="startLetterActivity"
+            android:text="U" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:onClick="startLetterActivity"
+            android:text="V" />
+
+        <Button
+            android:id="@+id/wButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:onClick="startLetterActivity"
+            android:text="W" />
+
+        <Button
+            android:id="@+id/xButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorYellow"
+            android:onClick="startLetterActivity"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/yButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:onClick="startLetterActivity"
+            android:text="Y" />
+
+        <Button
+            android:id="@+id/zButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:onClick="startLetterActivity"
+            android:text="Z" />
+
+        <Button
+            android:id="@+id/button122"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button121"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle"
+            android:text="Button"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>

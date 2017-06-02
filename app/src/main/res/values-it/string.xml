@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+    <string name="colors">Colori</string>
+    <string name="numbers">Numeri</string>
+    <string name="fruits">Frutta</string>
+    <string name="vegetable">Verdure</string>
+    <string name="alphabet">Alfabeto</string>
+    <string name="animals">Animali</string>
+    <string name="exercise">Esercizi</string>
+    <string name="info">Info</string>
+
+
+    <!-- COLORS-->
+    <string name="red">Rosso</string>
+    <string name="blue">Blu</string>
+    <string name="yellow">Giallo</string>
+    <string name="black">Nero</string>
+    <string name="grey">Grigio</string>
+    <string name="white">Bianco</string>
+    <string name="orange">Arancione</string>
+    <string name="violet">Viola</string>
+    <string name="green">Verde</string>
+    <string name="brown">Marrone</string>
+    <string name="pink">Rosa</string>
+    <string name="light_blue">Azzurro</string>
+
+
+    <!--VEGETABLES-->
+    <string name="asparagus">Asparagi</string>
+    <string name="beet">barbabietola</string>
+    <string name="broccoli">Broccoli</string>
+    <string name="carot">Carota</string>
+    <string name="mais">Mais</string>
+    <string name="zucchini">Zucchina</string>
+    <string name="eggplant">Melanzana</string>
+    <string name="salad">Insalata</string>
+    <string name="leek">Porro</string>
+    <string name="mushroom">Funghi</string>
+    <string name="onion">Cipolla</string>
+    <string name="pepper">Peperoni</string>
+    <string name="pees">Piselli</string>
+    <string name="potatoes">Patate</string>
+    <string name="pumpkin">Zucca</string>
+
+
+    <!--ANIMALS-->
+    <string name="monkey">Scimmia</string>
+    <string name="owl">Gufo</string>
+    <string name="parrot">Pappagallo</string>
+    <string name="eagle">Aquila</string>
+    <string name="bee">Ape</string>
+    <string name="bird">Gabbiano</string>
+    <string name="koala">Koala</string>
+    <string name="bat">Pipistrello</string>
+    <string name="snake">Serpente</string>
+    <string name="tiger">Tigre</string>
+    <string name="snail">Lumaca</string>
+    <string name="sheep">Pecora</string>
+    <string name="pig">Maiale</string>
+    <string name="cow">Mucca</string>
+    <string name="bear">Orso</string>
+
+
+    <!--NUMBERS-->
+    <string name="one">Uno</string>
+    <string name="two">Due</string>
+    <string name="three">Tre</string>
+    <string name="four">Quattro</string>
+    <string name="five">Cinque</string>
+    <string name="six">Sei</string>
+    <string name="seven">Sette</string>
+    <string name="eight">Otto</string>
+    <string name="nine">Nove</string>
+    <string name="ten">Dieci</string>
+</resources>

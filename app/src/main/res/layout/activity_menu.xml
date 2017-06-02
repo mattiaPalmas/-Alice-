@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="4"
+    tools:context="com.exerciseapp.mattiapalmas.alice.main_menu.MainMenu">
+
+    <ImageButton
+        android:id="@+id/colorsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="6"
+        android:adjustViewBounds="true"
+        android:background="@drawable/tavolozza"
+        android:onClick="startColorsGame"
+        android:scaleType="fitCenter"
+        android:text="@string/colors"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/numbersButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="6"
+        android:background="@drawable/mathematics"
+        android:onClick="startNumbersGame"
+        android:text="@string/numbers"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/animalsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="6"
+        android:background="@drawable/savana"
+        android:onClick="startAnimalsGame"
+        android:text="@string/animals"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Colors"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Numbers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Animals"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light" />
+
+    <ImageButton
+        android:id="@+id/vegetablesButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="6"
+        android:background="@drawable/vegetables"
+        android:onClick="startVegetablesGame"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/alphabetButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="6"
+        android:background="@drawable/alphabet"
+        android:onClick="startAlphabetGame"
+        android:text="@string/alphabet"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/fruitsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="6"
+        android:background="@drawable/apple"
+        android:onClick="startFruitsGame"
+        android:text="@string/fruits"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Vegetables"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Alphabet"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Fruits"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light" />
+
+</GridLayout>

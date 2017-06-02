@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landscape"
+    tools:context="com.exerciseapp.mattiapalmas.alice.animals.AnimalsMain">
+    <include layout="@layout/content_anima_lmain" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_weight="4"
+        android:columnCount="5"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/owlId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/owl" />
+
+        <ImageView
+            android:id="@+id/parrotId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/parrot" />
+
+        <ImageView
+            android:id="@+id/eagleId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/eagle" />
+
+        <ImageView
+            android:id="@+id/beeId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/ape" />
+
+        <ImageView
+            android:id="@+id/gabbianoId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/gabbiano" />
+
+        <ImageView
+            android:id="@+id/monkeyId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/monkey" />
+
+        <ImageView
+            android:id="@+id/koalaId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/koala" />
+
+        <ImageView
+            android:id="@+id/batId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/bat" />
+
+        <ImageView
+            android:id="@+id/snakeId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/snake" />
+
+        <ImageView
+            android:id="@+id/tigerId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/tiger" />
+
+        <ImageView
+            android:id="@+id/snailId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/snail" />
+
+        <ImageView
+            android:id="@+id/sheepId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/sheep2" />
+
+        <ImageView
+            android:id="@+id/pigId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/pig" />
+
+        <ImageView
+            android:id="@+id/cowId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/cow" />
+
+        <ImageView
+            android:id="@+id/bearId"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:layout_rowWeight="1"
+            android:onClick="selectAnimal"
+            app:srcCompat="@drawable/bear" />
+    </GridLayout>
+
+</android.support.design.widget.CoordinatorLayout>
