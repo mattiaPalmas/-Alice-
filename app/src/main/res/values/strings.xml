@@ -9,6 +9,10 @@
     <string name="exercise">Exercise</string>
     <string name="info">Info</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="welcome">Welcome to Alice\'s world</string>
+    <string name="lenguage">Witch lenguage are we learning today?</string>
+    <string name="english">English</string>
+    <string name="italian">Italian</string>
 
     <!--COLORS-->
     <string name="red">Red</string>
@@ -18,7 +22,7 @@
     <string name="grey">Grey</string>
     <string name="white">White</string>
     <string name="orange">Orange</string>
-    <string name="violet">Violet</string>
+    <string name="purple">Purple</string>
     <string name="green">Green</string>
     <string name="brown">Brown</string>
     <string name="pink">Pink</string>
@@ -29,7 +33,7 @@
     <string name="beet">Beet</string>
     <string name="broccoli">Broccoli</string>
     <string name="carot">Carot</string>
-    <string name="mais">Mais</string>
+    <string name="mais">Corn</string>
     <string name="zucchini">Zucchini</string>
     <string name="eggplant">Eggplant</string>
     <string name="salad">Salad</string>
@@ -38,7 +42,7 @@
     <string name="onion">Onion</string>
     <string name="pepper">Pepper</string>
     <string name="pees">Pees</string>
-    <string name="potatoes">Potatoes</string>
+    <string name="potatoes">Potato</string>
     <string name="pumpkin">Pumpkin</string>
 
 
@@ -48,7 +52,7 @@
     <string name="parrot">Parrot</string>
     <string name="eagle">Eagle</string>
     <string name="bee">Bee</string>
-    <string name="bird">Bird</string>
+    <string name="bird">Seagull</string>
     <string name="koala">Koala</string>
     <string name="bat">Bat</string>
     <string name="snake">Snake</string>
@@ -71,6 +75,25 @@
     <string name="eight">Eight</string>
     <string name="nine">Nine</string>
     <string name="ten">Ten</string>
+
+
+    <!--FRUITS-->
+    <string name="banana">Banana</string>
+    <string name="cherry">Cherry</string>
+    <string name="coconut">Coconut</string>
+    <string name="grapes">Grapes</string>
+    <string name="kiwi">Kiwi</string>
+    <string name="Apple">Apple</string>
+    <string name="Watermelon">Watermelon</string>
+    <string name="Melon">Melon</string>
+    <string name="Orange">Orange</string>
+    <string name="Peach">Peach</string>
+    <string name="Pear">Pear</string>
+    <string name="blueberries">Blueberries</string>
+    <string name="passion_fruit">Passion fruit</string>
+    <string name="Pineapple">Pineapple</string>
+    <string name="fig">Fig</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

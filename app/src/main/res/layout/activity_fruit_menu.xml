@@ -23,20 +23,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/asparagusImg"
+                android:id="@+id/bananaImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/banana" />
 
             <TextView
-                android:id="@+id/asparagusText"
+                android:id="@+id/bananaText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/asparagus"
+                android:text="@string/banana"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -50,20 +53,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/beetImg"
+                android:id="@+id/cherryImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/cherries" />
 
             <TextView
-                android:id="@+id/beetText"
+                android:id="@+id/cherryText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/beet"
+                android:text="@string/cherry"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -77,20 +83,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/broccoliImg"
+                android:id="@+id/coconutImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/coconut" />
 
             <TextView
-                android:id="@+id/broccoliText"
+                android:id="@+id/coconutText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/broccoli"
+                android:text="@string/coconut"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -104,20 +113,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/carotImg"
+                android:id="@+id/grapesImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/grapes" />
 
             <TextView
-                android:id="@+id/carotText"
+                android:id="@+id/grapesText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/carot"
+                android:text="@string/grapes"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -131,20 +143,53 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/maisImg"
+                android:id="@+id/blueberriesImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
+                android:padding="5dp"
+                app:srcCompat="@drawable/blueberries" />
+
+            <TextView
+                android:id="@+id/blueberryText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorBackPurple"
+                android:gravity="center"
+                android:text="@string/blueberries"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/kiwiImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/kiwi" />
 
             <TextView
-                android:id="@+id/maisText"
+                android:id="@+id/kiwiText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/mais"
+                android:text="@string/kiwi"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -158,22 +203,26 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/zucchiniImg"
+                android:id="@+id/watermelonImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
-                app:srcCompat="@drawable/lemon" />
+                app:srcCompat="@drawable/watermelon1" />
 
             <TextView
-                android:id="@+id/zucchiniText"
+                android:id="@+id/watermelonText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/zucchini"
+                android:text="@string/Watermelon"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -185,48 +234,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/eggplantImg"
+                android:id="@+id/melonImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/melon" />
 
             <TextView
-                android:id="@+id/eggplantText"
+                android:id="@+id/melonText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/eggplant"
-                android:textAppearance="@style/TextAppearance.AppCompat"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_margin="12dp"
-            android:layout_rowWeight="1"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/saladImg"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="3"
-                android:padding="5dp"
-                app:srcCompat="@drawable/melon2" />
-
-            <TextView
-                android:id="@+id/saladText"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/salad"
+                android:text="@string/Melon"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -240,20 +264,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/leekImg"
+                android:id="@+id/orangeImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/orange" />
 
             <TextView
-                android:id="@+id/leekText"
+                android:id="@+id/orangeText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/leek"
+                android:text="@string/Orange"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -267,20 +294,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/mushroomImg"
+                android:id="@+id/peachImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/peach" />
 
             <TextView
-                android:id="@+id/mushroomText"
+                android:id="@+id/peachText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/mushroom"
+                android:text="@string/Peach"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -294,20 +324,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/onionImg"
+                android:id="@+id/passionImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
-                app:srcCompat="@drawable/pear" />
+                app:srcCompat="@drawable/passionfruit" />
 
             <TextView
-                android:id="@+id/onionText"
+                android:id="@+id/passionText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/onion"
+                android:text="@string/passion_fruit"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -321,20 +354,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/pepperImg"
+                android:id="@+id/pearImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/pear2" />
 
             <TextView
-                android:id="@+id/pepperText"
+                android:id="@+id/pearText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/pepper"
+                android:text="@string/Pear"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -348,20 +384,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/peesImg"
+                android:id="@+id/pineappleImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
-                app:srcCompat="@drawable/pineapple1" />
+                app:srcCompat="@drawable/pineapple" />
 
             <TextView
-                android:id="@+id/peesText"
+                android:id="@+id/pineappleText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/pees"
+                android:text="@string/Pineapple"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -375,20 +414,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/potatoesImg"
+                android:id="@+id/figImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
-                app:srcCompat="@drawable/pineapples" />
+                app:srcCompat="@drawable/fig" />
 
             <TextView
-                android:id="@+id/potatoesText"
+                android:id="@+id/figText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/potatoes"
+                android:text="@string/fig"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -402,20 +444,23 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/pumpkinImg"
+                android:id="@+id/appleImg"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
-                app:srcCompat="@drawable/banana2" />
+                app:srcCompat="@drawable/apple2" />
 
             <TextView
-                android:id="@+id/pumpkinText"
+                android:id="@+id/appleText"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
-                android:text="@string/pumpkin"
+                android:text="@string/Apple"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textStyle="bold" />
         </LinearLayout>

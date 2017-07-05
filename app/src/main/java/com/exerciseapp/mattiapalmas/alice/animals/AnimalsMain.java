@@ -1,5 +1,6 @@
 package com.exerciseapp.mattiapalmas.alice.animals;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,8 +11,10 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
 import com.exerciseapp.mattiapalmas.alice.main_menu.MainMenu;
+import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
 
 public class AnimalsMain extends AppCompatActivity {
 
@@ -22,7 +25,15 @@ public class AnimalsMain extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_animals_main);
     }
-
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
+        if (chooseLenguage.LANGUAGE == 0){
+            super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
+        } else if (chooseLenguage.LANGUAGE == 1){
+            super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
+        }
+    }
     public void selectAnimal(View view) {
         Intent intent = new Intent(AnimalsMain.this, AnimalSelected.class);
         intent.putExtra("animalId",view.getId());

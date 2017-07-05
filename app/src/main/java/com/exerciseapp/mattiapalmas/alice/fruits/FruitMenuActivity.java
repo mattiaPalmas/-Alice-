@@ -1,13 +1,20 @@
 package com.exerciseapp.mattiapalmas.alice.fruits;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
+import com.exerciseapp.mattiapalmas.alice.animals.AnimalSelected;
+import com.exerciseapp.mattiapalmas.alice.animals.AnimalsMain;
+import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
 
 public class FruitMenuActivity extends AppCompatActivity {
 
@@ -19,7 +26,22 @@ public class FruitMenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fruit_menu);
     }
 
-    public void shoeTOast(View view) {
-        Toast.makeText(this, "It can be clicked!!", Toast.LENGTH_SHORT).show();
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
+        if (chooseLenguage.LANGUAGE == 0){
+            super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
+        } else if (chooseLenguage.LANGUAGE == 1){
+            super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
+        }
+    }
+
+
+    public void openSecondActivity(View view) {
+        Intent intent = new Intent(FruitMenuActivity.this, FruitSelected.class);
+        intent.putExtra("fruitId",view.getId());
+        int aa = view.getId();
+        Log.d("fruit", String.valueOf(aa));
+        startActivity(intent);
     }
 }

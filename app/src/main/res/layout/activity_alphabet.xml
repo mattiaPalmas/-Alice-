@@ -55,7 +55,7 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_green_dark"
+            android:backgroundTint="@color/darkGreen"
             android:onClick="startLetterActivity"
             android:text="D" />
 
@@ -127,7 +127,7 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_blue_bright"
+            android:backgroundTint="@color/colorLightBlue"
             android:onClick="startLetterActivity"
             android:text="J" />
 
@@ -160,7 +160,7 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_green_light"
+            android:backgroundTint="@color/colorGreen"
             android:onClick="startLetterActivity"
             android:text="M" />
 
@@ -200,7 +200,7 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_red_light"
+            android:backgroundTint="@color/darkGreen"
             android:onClick="startLetterActivity"
             android:text="P" />
 

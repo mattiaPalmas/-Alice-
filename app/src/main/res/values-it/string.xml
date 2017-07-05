@@ -9,6 +9,10 @@
     <string name="animals">Animali</string>
     <string name="exercise">Esercizi</string>
     <string name="info">Info</string>
+    <string name="welcome">Benvenuti nel mondo di Alice</string>
+    <string name="lenguage">Quale lingua impariamo oggi?</string>
+    <string name="english">Inglese</string>
+    <string name="italian">Italiano</string>
 
 
     <!-- COLORS-->
@@ -19,7 +23,7 @@
     <string name="grey">Grigio</string>
     <string name="white">Bianco</string>
     <string name="orange">Arancione</string>
-    <string name="violet">Viola</string>
+    <string name="purple">Viola</string>
     <string name="green">Verde</string>
     <string name="brown">Marrone</string>
     <string name="pink">Rosa</string>
@@ -27,8 +31,8 @@
 
 
     <!--VEGETABLES-->
-    <string name="asparagus">Asparagi</string>
-    <string name="beet">barbabietola</string>
+    <string name="asparagus">Asparago</string>
+    <string name="beet">Barbabietole</string>
     <string name="broccoli">Broccoli</string>
     <string name="carot">Carota</string>
     <string name="mais">Mais</string>
@@ -36,11 +40,11 @@
     <string name="eggplant">Melanzana</string>
     <string name="salad">Insalata</string>
     <string name="leek">Porro</string>
-    <string name="mushroom">Funghi</string>
+    <string name="mushroom">Fungo</string>
     <string name="onion">Cipolla</string>
-    <string name="pepper">Peperoni</string>
+    <string name="pepper">Peperone</string>
     <string name="pees">Piselli</string>
-    <string name="potatoes">Patate</string>
+    <string name="potatoes">Patata</string>
     <string name="pumpkin">Zucca</string>
 
 
@@ -73,4 +77,22 @@
     <string name="eight">Otto</string>
     <string name="nine">Nove</string>
     <string name="ten">Dieci</string>
+
+
+    <!--FRUITS-->
+    <string name="banana">Banana</string>
+    <string name="cherry">Cigliege</string>
+    <string name="coconut">Cocco</string>
+    <string name="grapes">Uva</string>
+    <string name="kiwi">Kiwi</string>
+    <string name="Apple">Mela</string>
+    <string name="Watermelon">Anguria</string>
+    <string name="Melon">Melone</string>
+    <string name="Orange">Arancia</string>
+    <string name="Peach">Pesca</string>
+    <string name="Pear">Pera</string>
+    <string name="blueberries">Mirtilli</string>
+    <string name="passion_fruit">Frutto della Passione</string>
+    <string name="Pineapple">Ananas</string>
+    <string name="fig">Fico</string>
 </resources>

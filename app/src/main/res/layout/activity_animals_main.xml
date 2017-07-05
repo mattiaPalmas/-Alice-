@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/landscape"
     tools:context="com.exerciseapp.mattiapalmas.alice.animals.AnimalsMain">
-    <include layout="@layout/content_anima_lmain" />
+
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -53,7 +53,7 @@
             android:layout_margin="15dp"
             android:layout_rowWeight="1"
             android:onClick="selectAnimal"
-            app:srcCompat="@drawable/ape" />
+            app:srcCompat="@drawable/bee" />
 
         <ImageView
             android:id="@+id/gabbianoId"
@@ -63,7 +63,7 @@
             android:layout_margin="15dp"
             android:layout_rowWeight="1"
             android:onClick="selectAnimal"
-            app:srcCompat="@drawable/gabbiano" />
+            app:srcCompat="@drawable/seagull" />
 
         <ImageView
             android:id="@+id/monkeyId"

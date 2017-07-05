@@ -1,15 +1,30 @@
 package com.exerciseapp.mattiapalmas.alice.alphabet;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
+import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
 
 public class AlphabetActivity extends AppCompatActivity {
+
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
+        if (chooseLenguage.LANGUAGE == 0){
+            super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
+        } else if (chooseLenguage.LANGUAGE == 1){
+            super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +33,7 @@ public class AlphabetActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_alphabet);
     }
+
 
     public void startLetterActivity(View view) {
         Intent intent;

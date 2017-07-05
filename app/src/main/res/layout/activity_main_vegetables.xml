@@ -29,6 +29,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/asparagus" />
 
@@ -37,6 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/asparagus"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -55,6 +58,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/beet" />
 
@@ -63,6 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/beet"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -81,6 +87,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/broccoli" />
 
@@ -89,6 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/broccoli"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -107,6 +116,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/carrot" />
 
@@ -115,6 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/carot"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -133,6 +145,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/corn" />
 
@@ -141,6 +155,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/mais"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -159,6 +174,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/courgette" />
 
@@ -167,6 +184,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/zucchini"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -185,6 +203,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/eggplant" />
 
@@ -193,6 +213,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/eggplant"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -212,6 +233,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/green" />
 
@@ -220,6 +243,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/salad"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -238,6 +262,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/leek" />
 
@@ -246,6 +272,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/leek"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -264,6 +291,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/mushroom" />
 
@@ -272,6 +301,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/mushroom"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -290,6 +320,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/onion" />
 
@@ -298,6 +330,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/onion"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -316,6 +349,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/paprika" />
 
@@ -324,6 +359,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/pepper"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -342,6 +378,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/peas" />
 
@@ -350,6 +388,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/pees"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -368,6 +407,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/potato" />
 
@@ -376,6 +417,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/potatoes"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -394,6 +436,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3"
+                android:background="@color/colorBackWhite"
+                android:onClick="openSecondActivity"
                 android:padding="5dp"
                 app:srcCompat="@drawable/pumpkin" />
 
@@ -402,6 +446,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:background="@color/colorBackPurple"
                 android:gravity="center"
                 android:text="@string/pumpkin"
                 android:textAppearance="@style/TextAppearance.AppCompat" />

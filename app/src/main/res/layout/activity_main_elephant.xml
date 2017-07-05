@@ -24,7 +24,7 @@
         android:layout_weight="10"
         android:fontFamily="casual"
         android:gravity="center"
-        android:text="Welcome to ALice's world"
+        android:text="@string/welcome"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textSize="24sp"
         android:textStyle="bold" />

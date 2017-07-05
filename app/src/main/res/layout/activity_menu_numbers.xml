@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cc"
+    android:background="@drawable/ladybug2"
     tools:context="com.exerciseapp.mattiapalmas.alice.numbers.MenuNumbersActivity">
 
     <LinearLayout
@@ -14,66 +14,74 @@
         android:layout_marginRight="20dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/numButton"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@color/colorLightBlue"
-            android:text="1" />
+            android:layout_marginBottom="10dp"
+            android:onClick="speak"
+            app:srcCompat="@drawable/onefingerprova" />
 
         <Button
             android:id="@+id/numText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@color/colorLightBlue"
-            android:text="Uno" />
+            android:background="@color/colorBackWhite"
+            android:elevation="1dp"
+            android:fontFamily="casual"
+            android:onClick="speak"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/one"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="4"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:weightSum="1">
+        android:layout_marginRight="20dp"
+        android:layout_weight="6"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/nextButton"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="70dp"
-            android:background="@android:drawable/arrow_up_float"
-            android:backgroundTint="@color/colorGreen"
-            android:onClick="nextNum"
-            android:text="Button" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/backButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="@android:drawable/arrow_down_float"
-            android:backgroundTint="@color/colorRed"
-            android:onClick="backNumber"
-            android:text="Button" />
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/arrowupyellow"
+                android:onClick="nextNum" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/button104"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="0.12"
-            android:background="@android:drawable/ic_btn_speak_now"
-            android:backgroundTint="@color/colorBlack"
-            android:onClick="speak" />
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/arrowbotyellow"
+                android:onClick="backNumber" />
+        </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

@@ -15,61 +15,116 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/letterTextView"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="finish"
-            android:text="A"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="80sp" />
+            android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="playSound"
-            app:srcCompat="@drawable/bee" />
+            <LinearLayout
+                android:id="@+id/backgroundWord"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/rain"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/wordTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="speak"
+                    android:padding="30dp"
+                    android:text="Ape"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="speak"
+                    app:srcCompat="@drawable/bee" />
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="10"
+        android:background="@color/colorAccent"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/buttonBack"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
             android:layout_weight="1"
-            android:background="@android:drawable/ic_input_delete"
-            android:backgroundTint="@color/colorPrimary"
-            android:onClick="buttonBack" />
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/wordTextView"
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backarrow"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="buttonBack" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:onClick="finish"
-            android:text="Ape"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/buttonNext"
+            <TextView
+                android:id="@+id/letterTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorBackPurple"
+                android:onClick="speak"
+                android:text="A"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
             android:layout_weight="1"
-            android:background="@android:drawable/ic_media_next"
-            android:backgroundTint="@color/colorPrimary"
-            android:onClick="buttonNext" />
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nextarrow"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="buttonNext" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

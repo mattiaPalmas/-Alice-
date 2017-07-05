@@ -52,7 +52,7 @@
         android:background="@color/colorAccent"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="Colors"
+        android:text="@string/colors"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/background_light" />
 
@@ -65,7 +65,7 @@
         android:background="@color/colorAccent"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="Numbers"
+        android:text="@string/numbers"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/background_light" />
 
@@ -78,7 +78,7 @@
         android:background="@color/colorAccent"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="Animals"
+        android:text="@string/animals"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/background_light" />
 
@@ -93,17 +93,6 @@
         android:textSize="10sp" />
 
     <ImageButton
-        android:id="@+id/alphabetButton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="6"
-        android:background="@drawable/alphabet"
-        android:onClick="startAlphabetGame"
-        android:text="@string/alphabet"
-        android:textSize="10sp" />
-
-    <ImageButton
         android:id="@+id/fruitsButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -112,6 +101,17 @@
         android:background="@drawable/apple"
         android:onClick="startFruitsGame"
         android:text="@string/fruits"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/alphabetButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="6"
+        android:background="@drawable/alphabet"
+        android:onClick="startAlphabetGame"
+        android:text="@string/alphabet"
         android:textSize="10sp" />
 
     <TextView
@@ -123,20 +123,7 @@
         android:background="@color/colorAccent"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="Vegetables"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-        android:textColor="@android:color/background_light" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:background="@color/colorAccent"
-        android:gravity="center"
-        android:includeFontPadding="false"
-        android:text="Alphabet"
+        android:text="@string/vegetable"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/background_light" />
 
@@ -149,7 +136,20 @@
         android:background="@color/colorAccent"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="Fruits"
+        android:text="@string/fruits"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/alphabet"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/background_light" />
 
