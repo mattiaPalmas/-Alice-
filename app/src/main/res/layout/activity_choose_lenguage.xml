@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.exerciseapp.mattiapalmas.alice.animals.AnimaLMain"
-    tools:showIn="@layout/activity_anima_lmain">
+    tools:context="com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage">
 
 </android.support.constraint.ConstraintLayout>
