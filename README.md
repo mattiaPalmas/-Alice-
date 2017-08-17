@@ -2,8 +2,8 @@
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg?style=flat)](https://www.android.com/)
 [![Language](https://img.shields.io/badge/language-java-blue.svg?style=flat)](https://www.java.com/en/)
-[![Platform](https://img.shields.io/badge/software-Photoshop-yellow.svg?style=flat)
-[![Platform](https://img.shields.io/badge/software-Illustrator-lightblue.svg?style=flat)
+[![Platform](https://img.shields.io/badge/software-Photoshop-yellow.svg?style=flat)](http://www.photoshop.com/)
+[![Platform](https://img.shields.io/badge/software-Illustrator-lightblue.svg?style=flat)](http://www.adobe.com/products/illustrator.html?sdid=KKQLE&mv=search&s_kwcid=AL!3085!3!118546855404!b!!!!adobe%20illustrator&ef_id=WPlWYQAAAvCN5xv9:20170817211647:s)
 
 
 ---
