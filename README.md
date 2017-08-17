@@ -1,6 +1,8 @@
  # "🐘  Alice: learn english and italian for kids.  🐘"
 
 [![Platform](https://img.shields.io/badge/platform-android-green.svg?style=flat)](https://www.android.com/)
+[![Software](https://img.shields.io/badge/software-Photoshop-yellow.svg?style=flat)
+[![Software](https://img.shields.io/badge/software-Illustrator-lightblue.svg?style=flat)
 [![Language](https://img.shields.io/badge/platform-java-blue.svg?style=flat)](https://www.java.com/en/)
 
 ---
