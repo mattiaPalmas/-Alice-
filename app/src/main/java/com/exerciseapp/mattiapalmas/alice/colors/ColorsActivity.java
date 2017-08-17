@@ -2,24 +2,18 @@ package com.exerciseapp.mattiapalmas.alice.colors;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
-import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
+import com.exerciseapp.mattiapalmas.alice.MyServiceMusic;
 import com.exerciseapp.mattiapalmas.alice.R;
-import com.exerciseapp.mattiapalmas.alice.animals.AnimalSelected;
-import com.exerciseapp.mattiapalmas.alice.animals.AnimalsMain;
-import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
+import com.exerciseapp.mattiapalmas.alice.main_menu.ChooseLenguage;
 
 public class ColorsActivity extends AppCompatActivity {
 
@@ -28,21 +22,22 @@ public class ColorsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_colors);
+        MyServiceMusic.backInTheMenu = true;
 
-        language = chooseLenguage.LANGUAGE;
+        language = ChooseLenguage.LANGUAGE;
     }
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
-        if (chooseLenguage.LANGUAGE == 0){
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
+        if (ChooseLenguage.LANGUAGE == 0){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        } else if (chooseLenguage.LANGUAGE == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
         }
     }

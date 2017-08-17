@@ -3,13 +3,8 @@ package com.exerciseapp.mattiapalmas.alice.colors;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
-import android.content.res.ColorStateList;
-import android.content.res.Resources;
-import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Build;
-import android.speech.tts.TextToSpeech;
-import android.speech.tts.UtteranceProgressListener;
 import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -18,18 +13,14 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
-import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
+import com.exerciseapp.mattiapalmas.alice.main_menu.ChooseLenguage;
 
 import java.io.IOException;
-import java.util.Locale;
 
 import static com.exerciseapp.mattiapalmas.alice.colors.ColorsActivity.language;
 
@@ -48,10 +39,10 @@ public class ColorSelectedActivity extends AppCompatActivity{
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
-        if (chooseLenguage.LANGUAGE == 0 || language == 0){
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
+        if (ChooseLenguage.LANGUAGE == 0 || language == 0){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        } else if (chooseLenguage.LANGUAGE == 1 || language == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1 || language == 1){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
         }
     }
@@ -81,7 +72,7 @@ public class ColorSelectedActivity extends AppCompatActivity{
         Intent intent = getIntent();
         int animalId = intent.getIntExtra("colorId", 0);
 
-        language = chooseLenguage.LANGUAGE;
+        language = ChooseLenguage.LANGUAGE;
 
 
 
@@ -292,11 +283,11 @@ public class ColorSelectedActivity extends AppCompatActivity{
 
     @Override
     protected void onStop() {
-        Log.d("mattia", "colorsel" + chooseLenguage.LANGUAGE);
+        Log.d("mattia", "colorsel" + ChooseLenguage.LANGUAGE);
         mp.release();
         super.onStop();
 
-        Log.d(TAG, "onStop: COLOR SELECT, lenguage" + chooseLenguage.LANGUAGE);
+        Log.d(TAG, "onStop: COLOR SELECT, lenguage" + ChooseLenguage.LANGUAGE);
     }
 
     @Override

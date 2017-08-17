@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
-import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
+import com.exerciseapp.mattiapalmas.alice.main_menu.ChooseLenguage;
 
 import java.io.IOException;
 
@@ -34,10 +34,10 @@ public class FruitSelected extends AppCompatActivity {
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
-        if (chooseLenguage.LANGUAGE == 0){
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
+        if (ChooseLenguage.LANGUAGE == 0){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        } else if (chooseLenguage.LANGUAGE == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
         }
     }
@@ -133,9 +133,9 @@ public class FruitSelected extends AppCompatActivity {
         String fruitString = fruitText.getText().toString();
         switch (fruitString) {
             case "Banana":
-                if (chooseLenguage.LANGUAGE == 0){
+                if (ChooseLenguage.LANGUAGE == 0){
                     setSong(15);
-                } else if (chooseLenguage.LANGUAGE == 1){
+                } else if (ChooseLenguage.LANGUAGE == 1){
                     setSong(0);
                 }
                 break;
@@ -152,9 +152,9 @@ public class FruitSelected extends AppCompatActivity {
                 setSong(4);
                 break;
             case "Kiwi":
-                if (chooseLenguage.LANGUAGE == 0){
+                if (ChooseLenguage.LANGUAGE == 0){
                     setSong(20);
-                } else if (chooseLenguage.LANGUAGE == 1){
+                } else if (ChooseLenguage.LANGUAGE == 1){
                     setSong(5);
                 }
                 break;

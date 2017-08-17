@@ -2,8 +2,10 @@ package com.exerciseapp.mattiapalmas.alice.alphabet;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.AppCompatButton;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -11,17 +13,17 @@ import android.view.WindowManager;
 
 import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
-import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
+import com.exerciseapp.mattiapalmas.alice.main_menu.ChooseLenguage;
 
 public class AlphabetActivity extends AppCompatActivity {
 
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
-        if (chooseLenguage.LANGUAGE == 0){
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
+        if (ChooseLenguage.LANGUAGE == 0){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        } else if (chooseLenguage.LANGUAGE == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
         }
     }
@@ -32,15 +34,18 @@ public class AlphabetActivity extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_alphabet);
+
     }
+
 
 
     public void startLetterActivity(View view) {
         Intent intent;
-        switch (view.getId())
+        switch (view.
+                getId())
         {
             case R.id.aButton:
-                 intent = new Intent(AlphabetActivity.this,LetterMainActivity.class);
+                intent = new Intent(AlphabetActivity.this,LetterMainActivity.class);
                 intent.putExtra("letter","a");
                 startActivity(intent);
             break;

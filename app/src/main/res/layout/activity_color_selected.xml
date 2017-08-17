@@ -70,7 +70,7 @@
                     android:paddingBottom="10dp"
                     android:paddingTop="10dp"
                     android:text="@string/orange"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textStyle="bold" />
 

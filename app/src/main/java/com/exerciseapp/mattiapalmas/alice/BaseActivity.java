@@ -9,6 +9,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+
 /**
  * Created by mattia palmas on 2017-06-16.
  */
@@ -35,11 +36,13 @@ public class BaseActivity extends AppCompatActivity {
     }
 
 
-
     protected void musicOnResume() {
         super.onResume();
-        if (binder != null)
-            binder.onRequestResume();
+
+            if (binder != null)
+                binder.onRequestResume();
+            else
+                createMusic();
     }
 
     protected void musicOnStop() {

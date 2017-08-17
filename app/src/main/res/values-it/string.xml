@@ -8,7 +8,6 @@
     <string name="alphabet">Alfabeto</string>
     <string name="animals">Animali</string>
     <string name="exercise">Esercizi</string>
-    <string name="info">Info</string>
     <string name="welcome">Benvenuti nel mondo di Alice</string>
     <string name="lenguage">Quale lingua impariamo oggi?</string>
     <string name="english">Inglese</string>
@@ -81,7 +80,7 @@
 
     <!--FRUITS-->
     <string name="banana">Banana</string>
-    <string name="cherry">Cigliege</string>
+    <string name="cherry">Ciliegie</string>
     <string name="coconut">Cocco</string>
     <string name="grapes">Uva</string>
     <string name="kiwi">Kiwi</string>

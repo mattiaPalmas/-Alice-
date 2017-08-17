@@ -7,21 +7,21 @@
     android:background="@drawable/gff"
     tools:context="com.exerciseapp.mattiapalmas.alice.animals.AnimalsMain">
 
-    <GridLayout
+    <android.support.v7.widget.GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:background="?attr/colorControlHighlight"
         android:backgroundTint="?attr/colorControlHighlight"
-        android:columnCount="5"
-        android:rowCount="3">
+        app:columnCount="5"
+        app:rowCount="3">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -48,9 +48,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -77,9 +77,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -106,9 +106,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -135,9 +135,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -164,9 +164,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -193,9 +193,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -223,9 +223,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -252,9 +252,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -281,9 +281,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -310,9 +310,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -339,9 +339,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -368,9 +368,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -397,9 +397,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -426,9 +426,9 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="12dp"
-            android:layout_rowWeight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -452,6 +452,6 @@
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </LinearLayout>
 
-    </GridLayout>
+    </android.support.v7.widget.GridLayout>
 
 </LinearLayout>

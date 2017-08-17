@@ -7,21 +7,21 @@
     android:background="@drawable/landscape"
     tools:context="com.exerciseapp.mattiapalmas.alice.animals.AnimalsMain">
 
-    <GridLayout
+    <android.support.v7.widget.GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="0dp"
         android:layout_weight="4"
-        android:columnCount="5"
-        android:rowCount="3">
+        app:columnCount="5"
+        app:rowCount="3">
 
         <ImageView
             android:id="@+id/owlId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/owl" />
 
@@ -29,9 +29,9 @@
             android:id="@+id/parrotId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/parrot" />
 
@@ -39,9 +39,9 @@
             android:id="@+id/eagleId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/eagle" />
 
@@ -49,9 +49,9 @@
             android:id="@+id/beeId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/bee" />
 
@@ -59,9 +59,9 @@
             android:id="@+id/gabbianoId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/seagull" />
 
@@ -69,9 +69,9 @@
             android:id="@+id/monkeyId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/monkey" />
 
@@ -79,9 +79,9 @@
             android:id="@+id/koalaId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/koala" />
 
@@ -89,9 +89,9 @@
             android:id="@+id/batId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/bat" />
 
@@ -99,9 +99,9 @@
             android:id="@+id/snakeId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/snake" />
 
@@ -109,9 +109,9 @@
             android:id="@+id/tigerId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/tiger" />
 
@@ -119,9 +119,9 @@
             android:id="@+id/snailId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/snail" />
 
@@ -129,9 +129,9 @@
             android:id="@+id/sheepId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/sheep2" />
 
@@ -139,9 +139,9 @@
             android:id="@+id/pigId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/pig" />
 
@@ -149,9 +149,9 @@
             android:id="@+id/cowId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/cow" />
 
@@ -159,11 +159,11 @@
             android:id="@+id/bearId"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_columnWeight="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
             android:layout_margin="15dp"
-            android:layout_rowWeight="1"
             android:onClick="selectAnimal"
             app:srcCompat="@drawable/bear" />
-    </GridLayout>
+    </android.support.v7.widget.GridLayout>
 
 </android.support.design.widget.CoordinatorLayout>

@@ -3,9 +3,7 @@ package com.exerciseapp.mattiapalmas.alice.alphabet;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
-import android.graphics.PorterDuff;
 import android.media.MediaPlayer;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,9 +15,7 @@ import android.widget.TextView;
 
 import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
-import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
-
-import org.w3c.dom.Text;
+import com.exerciseapp.mattiapalmas.alice.main_menu.ChooseLenguage;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -47,10 +43,10 @@ public class LetterMainActivity extends AppCompatActivity {
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
-        if (chooseLenguage.LANGUAGE == 0){
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
+        if (ChooseLenguage.LANGUAGE == 0){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        } else if (chooseLenguage.LANGUAGE == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
         }
     }
@@ -65,14 +61,14 @@ public class LetterMainActivity extends AppCompatActivity {
 
         Intent intent= getIntent();
         letter = intent.getStringExtra("letter");
-        imageview= (ImageView) findViewById(R.id.imageView);
+        imageview= (ImageView) findViewById(R.id.imageAlpha);
         letterTextView= (TextView) findViewById(R.id.letterTextView);
         wordTextView=(TextView) findViewById(R.id.wordTextView);
         language= Locale.getDefault().getDisplayLanguage();
         Log.d("lang","is: " + language);
 
         englishWord = new String[] {"Apple","Bicycle","Cat","Dad","Egg","Flower","Giraffe","Heart","Ice-Cream","Jam","Kite","Leaf","Mum","Nest","Olive Oil","Penguin","Queen","Rabbit","Sun","Tree","Umbrella","Volcano","Window","Xylophone","Yacht","Zebra"};
-        italianWord = new String[] {"Albero","Bicicletta","Cuore","Dadi","Elefante","Fiore","Gelato","Hotel","Ippopotamo","Jet","Kiwi","Libro","Mamma","Nido","Olio d'Oliva","Pinguino","Quadro","Regina","Sole","Treno","Uva","Vulcano","Waffel","Xilofono","Yacht","Zebra"};
+        italianWord = new String[] {"Albero","Bicicletta","Cuore","Dadi","Elefante","Fiore","Gelato","Hotel","Ippopotamo","Jet","Kiwi","Libro","Mamma","Nido","Olio d'Oliva","Pinguino","Quadro","Regina","Sole","Treno","Uva","Vulcano","Wafer","Xilofono","Yacht","Zebra"};
 
         englishImage = new int [] {R.drawable.apple2,R.drawable.bicicletta, R.drawable.cat2,R.drawable.dad,R.drawable.egg,R.drawable.flower,R.drawable.giraffe,R.drawable.heart,R.drawable.icecream,R.drawable.jam,R.drawable.kite,R.drawable.leaf,R.drawable.mum,R.drawable.nest,R.drawable.oliveoil,R.drawable.penguin,R.drawable.queen,R.drawable.bunny,R.drawable.sun,R.drawable.tree,R.drawable.umbrella,R.drawable.volcano,R.drawable.window,R.drawable.xylophone,R.drawable.yacht,R.drawable.zebra};
         italianImage = new int[] {R.drawable.tree,R.drawable.bicicletta,R.drawable.heart,R.drawable.dado,R.drawable.eleph,R.drawable.flower,R.drawable.icecream,R.drawable.hotel,R.drawable.ippopotamo,R.drawable.jet,R.drawable.kiwi,R.drawable.libro,R.drawable.mum,R.drawable.nest,R.drawable.oliveoil,R.drawable.penguin,R.drawable.quadro,R.drawable.queen,R.drawable.sun,R.drawable.treno,R.drawable.grapes,R.drawable.volcano,R.drawable.waffel,R.drawable.xylophone,R.drawable.yacht,R.drawable.zebra};
@@ -290,184 +286,184 @@ public class LetterMainActivity extends AppCompatActivity {
         String letterString = letterTextView.getText().toString();
         switch (letterString) {
             case "A":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(0);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(1);
                 }
                 break;
             case "B":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(2);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(3);
                 }
                 break;
             case "C":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(4);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(5);
                 }
                 break;
             case "D":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(6);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(7);
                 }
                 break;
             case "E":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(8);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(9);
                 }
                 break;
             case "F":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(10);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(11);
                 }
                 break;
             case "G":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(12);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(13);
                 }
                 break;
             case "H":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(14);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(15);
                 }
                 break;
             case "I":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(16);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(17);
                 }
                 break;
             case "J":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(18);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(19);
                 }
                 break;
             case "K":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(20);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(21);
                 }
                 break;
             case "L":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(22);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(23);
                 }
                 break;
             case "M":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(24);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(25);
                 }
                 break;
             case "N":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(26);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(27);
                 }
                 break;
             case "O":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(28);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(29);
                 }
                 break;
             case "P":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(30);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(31);
                 }
                 break;
             case "Q":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(32);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(33);
                 }
                 break;
             case "R":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(34);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(35);
                 }
                 break;
             case "S":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(36);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(37);
                 }
                 break;
             case "T":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(38);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(39);
                 }
                 break;
             case "U":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(40);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(41);
                 }
                 break;
             case "V":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(42);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(43);
                 }
                 break;
             case "W":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(44);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(45);
                 }
                 break;
             case "X":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(46);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(47);
                 }
                 break;
             case "Y":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(48);
-                } else if (chooseLenguage.LANGUAGE ==0){
+                } else if (ChooseLenguage.LANGUAGE ==0){
                     setSong(49);
                 }
                 break;
             case "Z":
-                if (chooseLenguage.LANGUAGE == 1){
+                if (ChooseLenguage.LANGUAGE == 1){
                     setSong(50);
-                } else if (chooseLenguage.LANGUAGE == 0){
+                } else if (ChooseLenguage.LANGUAGE == 0){
                     setSong(51);
                 }
                 break;
@@ -518,7 +514,7 @@ public class LetterMainActivity extends AppCompatActivity {
     public void setEnglishViews(int index) {
         imageview.setImageResource(englishImage[index]);
         letterTextView.setText(String.valueOf(charLetter[index]));
-        letterTextView.getBackground().setColorFilter(ContextCompat.getColor(this,colorLetter[index]), PorterDuff.Mode.SRC_ATOP);
+        //letterTextView.getBackground().setColorFilter(ContextCompat.getColor(this,colorLetter[index]), PorterDuff.Mode.SRC_ATOP);
         wordTextView.setText(englishWord[index]);
         letter = String.valueOf(charLetter[index]);
         letter = letter.toLowerCase();

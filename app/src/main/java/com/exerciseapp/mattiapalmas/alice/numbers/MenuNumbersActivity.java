@@ -1,7 +1,6 @@
 package com.exerciseapp.mattiapalmas.alice.numbers;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -15,7 +14,7 @@ import android.widget.ImageView;
 
 import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
-import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
+import com.exerciseapp.mattiapalmas.alice.main_menu.ChooseLenguage;
 
 import java.io.IOException;
 
@@ -35,10 +34,10 @@ public class MenuNumbersActivity extends AppCompatActivity {
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
-        if (chooseLenguage.LANGUAGE == 0){
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
+        if (ChooseLenguage.LANGUAGE == 0){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        } else if (chooseLenguage.LANGUAGE == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
         }
     }
@@ -63,9 +62,9 @@ public class MenuNumbersActivity extends AppCompatActivity {
         songs = new int[]{R.raw.one, R.raw.two, R.raw.three, R.raw.four, R.raw.five, R.raw.six, R.raw.seven, R.raw.eight, R.raw.nine, R.raw.ten, R.raw.uno, R.raw.due, R.raw.tre, R.raw.quattro, R.raw.cinque, R.raw.sei, R.raw.sette, R.raw.otto, R.raw.nove, R.raw.dieci};
         afd = this.getResources().openRawResourceFd(songs[current_index]);
 
-        if (chooseLenguage.LANGUAGE == 0){
+        if (ChooseLenguage.LANGUAGE == 0){
             mp = MediaPlayer.create(this,songs[10]);
-        } else if (chooseLenguage.LANGUAGE == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1){
             mp = MediaPlayer.create(this,songs[0]);
         }
         mp.start();

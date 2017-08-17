@@ -17,13 +17,19 @@ import java.io.IOException;
 
 public class MyServiceMusic extends Service {
     MediaPlayer mp;
+    public static boolean backInTheMenu;
 
     private  final IBinder mbinder = new LocalBinder();
 
     @Override
     public void onCreate() {
         super.onCreate();
-        mp = MediaPlayer.create(this, R.raw.music);
+        createMusic();
+    }
+
+    public void createMusic()
+    {
+        mp = MediaPlayer.create(this, R.raw.musicmenu);
         mp.setLooping(true);
         mp.start();
     }
@@ -53,17 +59,23 @@ public class MyServiceMusic extends Service {
     {
         public void onRequestPause(){
             mp.pause();
-            mp.release();
+            //mp.release();
         }
 
         public void onRequestResume()
         {
-            Log.d("mp","" + mp);
+            Log.d("hello","" + mp);
+            if (backInTheMenu)
+                createMusic();
+
+            if (!mp.isPlaying())
             mp.start();
+
+            backInTheMenu= false;
         }
 
         public void onRequestStop(){
-            mp.release();
+            // mp.release();
         }
 
     }

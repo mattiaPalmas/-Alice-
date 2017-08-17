@@ -3,11 +3,7 @@ package com.exerciseapp.mattiapalmas.alice.animals;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,9 +15,7 @@ import android.widget.TextView;
 
 import com.exerciseapp.mattiapalmas.alice.MyContextWrapper;
 import com.exerciseapp.mattiapalmas.alice.R;
-import com.exerciseapp.mattiapalmas.alice.main_menu.MainActivity;
-import com.exerciseapp.mattiapalmas.alice.main_menu.MainElephant;
-import com.exerciseapp.mattiapalmas.alice.main_menu.chooseLenguage;
+import com.exerciseapp.mattiapalmas.alice.main_menu.ChooseLenguage;
 
 import java.io.IOException;
 
@@ -42,10 +36,10 @@ public class AnimalSelected extends AppCompatActivity {
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", String.valueOf(chooseLenguage.LANGUAGE));
-        if (chooseLenguage.LANGUAGE == 0){
+        Log.d("tag", String.valueOf(ChooseLenguage.LANGUAGE));
+        if (ChooseLenguage.LANGUAGE == 0){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        } else if (chooseLenguage.LANGUAGE == 1){
+        } else if (ChooseLenguage.LANGUAGE == 1){
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
         }
     }
@@ -152,9 +146,9 @@ public class AnimalSelected extends AppCompatActivity {
                 setSong(5);
                 break;
             case "Koala" :
-                if (chooseLenguage.LANGUAGE == 0)
+                if (ChooseLenguage.LANGUAGE == 0)
                     setSong(21);
-                else if (chooseLenguage.LANGUAGE == 1)
+                else if (ChooseLenguage.LANGUAGE == 1)
                     setSong(6);
                 break;
             case "Bat" :

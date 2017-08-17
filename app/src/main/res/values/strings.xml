@@ -7,10 +7,8 @@
     <string name="alphabet">Alphabet</string>
     <string name="animals">Animals</string>
     <string name="exercise">Exercise</string>
-    <string name="info">Info</string>
-    <string name="title_activity_main">MainActivity</string>
     <string name="welcome">Welcome to Alice\'s world</string>
-    <string name="lenguage">Witch lenguage are we learning today?</string>
+    <string name="lenguage">Which language are we learning today?</string>
     <string name="english">English</string>
     <string name="italian">Italian</string>
 
@@ -32,7 +30,7 @@
     <string name="asparagus">Asparagus</string>
     <string name="beet">Beet</string>
     <string name="broccoli">Broccoli</string>
-    <string name="carot">Carot</string>
+    <string name="carot">Carrot</string>
     <string name="mais">Corn</string>
     <string name="zucchini">Zucchini</string>
     <string name="eggplant">Eggplant</string>
@@ -94,8 +92,4 @@
     <string name="Pineapple">Pineapple</string>
     <string name="fig">Fig</string>
 
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_anima_lmain">AnimaLMain</string>
 </resources>

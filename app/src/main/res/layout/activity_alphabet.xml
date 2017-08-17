@@ -22,9 +22,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorYellow"
             android:onClick="startLetterActivity"
-            android:text="A" />
+            android:text="A"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/bButton"
@@ -33,9 +34,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorRed"
             android:onClick="startLetterActivity"
-            android:text="B" />
+            android:text="B"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/cButton"
@@ -44,9 +46,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/white"
             android:onClick="startLetterActivity"
-            android:text="C" />
+            android:text="C"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/dButton"
@@ -55,9 +58,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/darkGreen"
             android:onClick="startLetterActivity"
-            android:text="D" />
+            android:text="D"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/eButton"
@@ -67,7 +71,9 @@
             android:layout_weight="1"
             android:background="@drawable/circle"
             android:onClick="startLetterActivity"
-            android:text="E" />
+            android:text="E"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/fButton"
@@ -76,9 +82,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/darker_gray"
             android:onClick="startLetterActivity"
-            android:text="F" />
+            android:text="F"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/gButton"
@@ -87,9 +94,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_orange_light"
             android:onClick="startLetterActivity"
-            android:text="G" />
+            android:text="G"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -105,9 +113,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_red_dark"
             android:onClick="startLetterActivity"
-            android:text="H" />
+            android:text="H"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/iButton"
@@ -116,9 +125,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorBlue"
             android:onClick="startLetterActivity"
-            android:text="I" />
+            android:text="I"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/jButton"
@@ -127,9 +137,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorLightBlue"
             android:onClick="startLetterActivity"
-            android:text="J" />
+            android:text="J"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/kButton"
@@ -138,9 +149,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorBrown"
             android:onClick="startLetterActivity"
-            android:text="K" />
+            android:text="K"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/lButton"
@@ -149,9 +161,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_orange_dark"
             android:onClick="startLetterActivity"
-            android:text="L" />
+            android:text="L"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/mButton"
@@ -160,9 +173,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorGreen"
             android:onClick="startLetterActivity"
-            android:text="M" />
+            android:text="M"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/nButton"
@@ -171,9 +185,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorYellow"
             android:onClick="startLetterActivity"
-            android:text="N" />
+            android:text="N"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -189,9 +204,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorPink"
             android:onClick="startLetterActivity"
-            android:text="O" />
+            android:text="O"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/pButton"
@@ -200,9 +216,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/darkGreen"
             android:onClick="startLetterActivity"
-            android:text="P" />
+            android:text="P"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/qButton"
@@ -211,9 +228,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/white"
             android:onClick="startLetterActivity"
-            android:text="Q" />
+            android:text="Q"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/rButton"
@@ -222,9 +240,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorYellow"
             android:onClick="startLetterActivity"
-            android:text="R" />
+            android:text="R"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/sButton"
@@ -234,7 +253,9 @@
             android:layout_weight="1"
             android:background="@drawable/circle"
             android:onClick="startLetterActivity"
-            android:text="S" />
+            android:text="S"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/tButton"
@@ -243,9 +264,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorRed"
             android:onClick="startLetterActivity"
-            android:text="T" />
+            android:text="T"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/uButton"
@@ -254,9 +276,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/white"
             android:onClick="startLetterActivity"
-            android:text="U" />
+            android:text="U"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -272,9 +295,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_green_dark"
             android:onClick="startLetterActivity"
-            android:text="V" />
+            android:text="V"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/wButton"
@@ -283,9 +307,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_orange_light"
             android:onClick="startLetterActivity"
-            android:text="W" />
+            android:text="W"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/xButton"
@@ -294,9 +319,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@color/colorYellow"
             android:onClick="startLetterActivity"
-            android:text="X" />
+            android:text="X"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/yButton"
@@ -305,9 +331,10 @@
             android:layout_margin="15dp"
             android:layout_weight="1"
             android:background="@drawable/circle"
-            android:backgroundTint="@android:color/holo_orange_dark"
             android:onClick="startLetterActivity"
-            android:text="Y" />
+            android:text="Y"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/zButton"
@@ -317,7 +344,9 @@
             android:layout_weight="1"
             android:background="@drawable/circle"
             android:onClick="startLetterActivity"
-            android:text="Z" />
+            android:text="Z"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button122"
@@ -327,6 +356,8 @@
             android:layout_weight="1"
             android:background="@drawable/circle"
             android:text="Button"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
             android:visibility="invisible" />
 
         <Button
@@ -337,6 +368,8 @@
             android:layout_weight="1"
             android:background="@drawable/circle"
             android:text="Button"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
             android:visibility="invisible" />
     </LinearLayout>
 </LinearLayout>

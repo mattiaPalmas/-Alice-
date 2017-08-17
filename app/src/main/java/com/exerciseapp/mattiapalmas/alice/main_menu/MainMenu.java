@@ -2,7 +2,6 @@ package com.exerciseapp.mattiapalmas.alice.main_menu;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -21,6 +20,7 @@ import com.exerciseapp.mattiapalmas.alice.vegetanles.mainVegetables;
 
 public class MainMenu extends BaseActivity {
 
+    boolean contextWrapped;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,17 +28,28 @@ public class MainMenu extends BaseActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+        ChooseLenguage.numMenus ++;
+        Log.d("hello", "" + ChooseLenguage.numMenus + "   menu");
         setContentView(R.layout.activity_menu);
         createMusic();
+
+        contextWrapped=false;
     }
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        Log.d("tag", "" + chooseLenguage.LANGUAGE);
-        if (chooseLenguage.LANGUAGE == 0)
+        Log.d("hello", "language " + ChooseLenguage.LANGUAGE);
+        if (ChooseLenguage.LANGUAGE == 0)
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"it"));
-        else if (chooseLenguage.LANGUAGE == 1)
+        else if (ChooseLenguage.LANGUAGE == 1)
             super.attachBaseContext(MyContextWrapper.wrap(newBase,"en"));
+        contextWrapped = true;
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        finish();
     }
 
     public void startColorsGame(View view) {
@@ -76,6 +87,7 @@ public class MainMenu extends BaseActivity {
     @Override
     protected void onResume() {
         musicOnResume();
+
         super.onResume();
     }
 
