@@ -25,3 +25,11 @@ ___
 
 * Android studio
 * Photoshop
+
+---
+![MySpotsDemo](https://github.com/mattiaPalmas/-Alice-/blob/master/img%20Alice/alice.jpg)
+![MySpotsDemo](https://github.com/mattiaPalmas/-Alice-/blob/master/img%20Alice/lenguage.jpg)
+![MySpotsDemo](https://github.com/mattiaPalmas/-Alice-/blob/master/img%20Alice/menu.jpg)
+![MySpotsDemo](https://github.com/mattiaPalmas/-Alice-/blob/master/img%20Alice/alphabet.jpg)
+![MySpotsDemo](https://github.com/mattiaPalmas/-Alice-/blob/master/img%20Alice/animalmenu.jpg)
+![MySpotsDemo](https://github.com/mattiaPalmas/-Alice-/blob/master/img%20Alice/fruit.jpg)
