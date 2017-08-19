@@ -31,14 +31,6 @@ public class MainActivity extends BaseActivity {
 
         createMusic();
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.arrowNext);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goingToNext = true;
-                startActivity(new Intent(MainActivity.this,MainElephant.class));
-            }
-        });
     }
 
     @Override
@@ -67,5 +59,10 @@ public class MainActivity extends BaseActivity {
         super.onStop();
 
         Log.d(ColorSelectedActivity.TAG, "onStop: COLOR SELECT");
+    }
+
+    public void goToMainMenu(View view) {
+        goingToNext = true;
+        startActivity(new Intent(MainActivity.this,MainElephant.class));
     }
 }

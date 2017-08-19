@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="goToMainMenu"
     android:background="@color/colorAccent">
 
     <TextView
@@ -18,15 +19,5 @@
         android:textColor="@android:color/background_light"
         android:textSize="160dp"
         android:textStyle="bold" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/arrowNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:onClick="goToMainMenu"
-        app:backgroundTint="@color/colorPrimaryDark"
-        app:srcCompat="@android:drawable/ic_menu_directions" />
 
 </android.support.design.widget.CoordinatorLayout>
